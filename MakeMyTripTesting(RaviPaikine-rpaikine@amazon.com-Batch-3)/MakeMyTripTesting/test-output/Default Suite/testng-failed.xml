@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MakeMyTripTesting(failed)">
+    <classes>
+      <class name="com.mmt.PageObjects.HomePage_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateMenuElements"/>
+        </methods>
+      </class> <!-- com.mmt.PageObjects.HomePage_Test -->
+    </classes>
+  </test> <!-- MakeMyTripTesting(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

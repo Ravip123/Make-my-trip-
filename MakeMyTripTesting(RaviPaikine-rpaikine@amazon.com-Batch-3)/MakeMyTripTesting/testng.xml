@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rv_itachi/Desktop/Youtube Codes/MakeMyTripTesting/src/test/java/com/mmt/PageObjects">
+        <classes>
+            <class name="com.mmt.PageObjects.FlightBookingPage_Test">
+                <methods>
+                    <include name="searchFlightsTest"/>
+                    <include name="bookFlightTest"/>
+                </methods>
+            </class>
+            <class name="com.mmt.PageObjects.HomePage_Test">
+                <methods>
+                    <include name="validateWebsiteTitle"/>
+                    <include name="validateHeaderElements"/>
+                    <include name="validateMenuElements"/>
+                </methods>
+            </class>
+            <class name="com.mmt.PageObjects.HotelBookingPage_Test">
+                <methods>
+                    <include name="searchHotelsTest"/>
+                    <include name="bookHotelTest"/>
+                </methods>
+            </class>
+            <class name="com.mmt.PageObjects.TrainBookingPage_Test">
+                <methods>
+                    <include name="searchTrainsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
